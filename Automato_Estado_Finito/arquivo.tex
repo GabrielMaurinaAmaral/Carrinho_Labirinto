@@ -1,0 +1,106 @@
+% pacotes
+\documentclass{report}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+
+\title{Máquina de estado finito}
+\author{Grupo FOGO - PatoBots}
+\date{\today}
+
+% Diagrama
+\begin{document}
+\maketitle Representação gráfica:
+\begin{center}
+\begin{tikzpicture}[scale=0.2]
+\tikzstyle{every node}+=[inner sep=0pt]
+\draw [black] (13.7,-27) circle (3);
+\draw (13.7,-27) node {$Inicio$};
+\draw [black] (30.9,-27) circle (3);
+\draw (30.9,-27) node {$A$};
+\draw [black] (47.3,-27) circle (3);
+\draw (47.3,-27) node {$B$};
+\draw [black] (63.9,-9.3) circle (3);
+\draw (63.9,-9.3) node {$C$};
+\draw [black] (63.9,-43) circle (3);
+\draw (63.9,-43) node {$D$};
+\draw [black] (18.8,-9.3) circle (3);
+\draw (18.8,-9.3) node {$Para$};
+\draw [black] (18.8,-9.3) circle (2.4);
+\draw [black] (16.26,-25.446) arc (115.2001:64.7999:14.186);
+\fill [black] (28.34,-25.45) -- (27.83,-24.65) -- (27.4,-25.56);
+\draw (22.3,-23.6) node [above] {$b_l$};
+\draw [black] (33.457,-25.443) arc (114.92374:65.07626:13.391);
+\fill [black] (44.74,-25.44) -- (44.23,-24.65) -- (43.81,-25.56);
+\draw (39.1,-23.7) node [above] {$e_p$};
+\draw [black] (47.536,-24.013) arc (-189.40238:-256.92393:17.621);
+\fill [black] (47.54,-24.01) -- (48.16,-23.31) -- (47.17,-23.14);
+\draw (51.54,-13.37) node [left] {$e_p$};
+\draw [black] (61.017,-42.179) arc (-109.84118:-158.05001:21.749);
+\fill [black] (48.23,-29.85) -- (48.06,-30.78) -- (48.99,-30.41);
+\draw (51.34,-37.86) node [below] {$e_p$};
+\draw [black] (62.503,-11.954) arc (-29.89168:-56.43463:40.257);
+\fill [black] (62.5,-11.95) -- (61.67,-12.4) -- (62.54,-12.9);
+\draw (57.5,-20.9) node [right] {$s_d$};
+\draw [black] (49.979,-28.348) arc (60.77563:31.33318:34.093);
+\fill [black] (62.45,-40.37) -- (62.47,-39.43) -- (61.61,-39.95);
+\draw (58.85,-33.07) node [above] {$s_e$};
+\draw [black] (61.232,-44.366) arc (-66.81016:-164.92256:21.887);
+\fill [black] (31.48,-29.94) -- (31.21,-30.84) -- (32.17,-30.58);
+\draw (41.2,-44.45) node [below] {$s_p$};
+\draw [black] (29.21,-24.52) -- (20.49,-11.78);
+\fill [black] (20.49,-11.78) -- (20.53,-12.72) -- (21.36,-12.15);
+\draw (25.45,-16.8) node [right] {$e_c$};
+\draw [black] (31.401,-24.044) arc (166.57672:69.83826:22.591);
+\fill [black] (31.4,-24.04) -- (32.07,-23.38) -- (31.1,-23.15);
+\draw (40.82,-8.88) node [above] {$s_p$};
+\draw [black] (0.9,-27) -- (10.7,-27);
+\fill [black] (10.7,-27) -- (9.9,-26.5) -- (9.9,-27.5);
+\end{tikzpicture}
+\end{center}
+
+% Definição de conjuntos
+<<<<<<< HEAD:Automato_Estado_Finito/arquivo.tex
+Conjunto do alfabeto:
+$= \{b_l, e_c, e_p, s_d, s_e, s_p\}$
+
+Conjunto de estados:
+$A = \{Início, A, D, E, F, Para\}$
+
+Estado inicial:
+$= \{Início\}$
+
+Estado final:
+=======
+Conjunto do alfabeto
+$= \{b_l, e_c, e_p, s_d, s_e, s_p\}$
+
+Conjunto de estados
+= \{Início, A, B, C, D, Para\}
+
+Estado inicial
+= \{Início\}
+
+Estado final
+>>>>>>> 6624d68bcc3090f648f4a6e4b1724fefc271f493:Automato_Estado_Finito/arquivo_latex.tex
+$= \{Para\}$\\
+
+% Definição de estados
+
+$b_l$ é o evento disparado pelo botão, dando início ao funcionamento do robô, o qual sai do estado parado e vai para o estado andando.
+
+$e_c$ é o evento que o sensor de calor encontra a fonte de calor do labirinto, mudando o estado do robô para parado.
+
+$e_p$ é o evento no qual o sensor de distância encontra uma parede, mudando o estado do robô para parado.
+
+$s_d$ é o evento em que o sensor de distância detecta que o melhor caminho é para a direita, mudando o estado para virar o robô nessa direção.
+
+$s_e$ é o evento em que o sensor de distância detecta que o melhor caminho é para a esquerda, mudando o estado para virar o robô nessa direção.
+
+$s_p$ é o evento em que o sensor de distância não está encontrando nenhuma parede à frente e o sensor de calor não está detectando a fonte, mudando o robô para o estado andando.
+
+\end{document}
+<<<<<<< HEAD:Automato_Estado_Finito/arquivo.tex
+
+=======
+>>>>>>> 6624d68bcc3090f648f4a6e4b1724fefc271f493:Automato_Estado_Finito/arquivo_latex.tex

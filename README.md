@@ -1,0 +1,3 @@
+# GrupoFOGO
+A seguir, encontra-se uma representação gráfica do problema enfrentado pela Equipe Fogo. Trata-se de um labirinto simples, sem dead-ends (caminhos sem saída), com uma fonte de calor situada no seu centro e duas entradas identificadas como A e B. O objetivo dos robôs a serem desenvolvidos é percorrer o labirinto de forma autônoma e localizar a fonte de calor o mais rápido possível. Embora o tempo seja um dos critérios a serem considerados na avaliação do desempenho dos robôs, não haverá competição entre eles na equipe. Em vez disso, o tempo será utilizado como uma métrica para avaliar o desempenho dos robôs e identificar oportunidades de aprimoramento do projeto.
+

@@ -1,0 +1,8 @@
+﻿Name,Quantity,Component
+"U1",1," Arduino Uno R3"
+"SERVO1",1,"Positional Micro Servo"
+"BAT1",1," 9V Battery"
+"DIST1",1," Ultrasonic Distance Sensor"
+"U2",1," H-bridge Motor Driver"
+"U3",1," 5V Regulator [LM7805]"
+"M4, M5",2," DC Motor"

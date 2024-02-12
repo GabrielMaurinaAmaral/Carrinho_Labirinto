@@ -1,0 +1,73 @@
+Lista de Compras do Grupo FOGO
+
+
+- ITEM: Arduino Nano
+- QUANTIDADE: 2
+- DESCRIÇÃO: O Arduino Nano é uma placa pequena, completa e compatível com breadboard baseada no ATmega328 (Arduino Nano 3.x).
+- FUNÇÃO: Controle lógico dos componentes para realizar o objetivo do robô
+
+- ITEM: Modulo Driver Ponte H - L298N
+- QUANTIDADE: 2
+- DESCRIÇÃO: Este driver é baseado no circuito tipo ponte H e é dedicado para controle de motor DC. O mesmo possui dois canais e permite controlar velocidade e sentido de rotação de até dois motores ao mesmo tempo. Possui terminais parafusáveis furos nas extremidades da placa para fixação ao protótipo.  
+- FUNÇÃO: Controle dos motores do projeto. 
+
+- ITEM: Motor TT DC 3V~6V com Caixa de Redução e Eixo Duplo
+- QUANTIDADE: 4
+- DESCRIÇÃO: Este motor requer uma alimentação recomendada de 4,5V. Com eixo aberto, ele precisa de 190 mA de corrente para funcionar, enquanto que seu eixo de saída roda a uma velocidade de 140 RPM nestas circunstâncias.O Motor DC 3-6V é ideal para projetos com Arduino e construção de Robôs. 
+- FUNÇÃO: Acelerar o Solucionador de labirintos.
+
+- ITEM: Micro Servo Motor Tower Pro 9g Sg90
+- QUANTIDADE: 1
+- DESCRIÇÃO: É um dispositivo eletromecânico utilizado para movimentar, com precisão, um objeto, permitindo-o girar em ângulos ou distâncias específicas.
+- FUNÇÃO: Suporte para o sensor de distancia tem uma visão 180°
+
+- ITEM: Roda de Borracha 68mm
+- QUANTIDADE: 4
+- DESCRIÇÃO: Rodas traseiras de 68 milímetros.  
+- FUNÇÃO: Movimentação do robô.
+
+- ITEM: Sensor de Distancia Ultrassônico
+- QUANTIDADE: 1
+- DESCRIÇÃO: Emite de uma onda sonora de alta frequência. O objeto a ser detectado (que é capaz de refletir essa onda) resulta em um eco, que é convertido em sinais elétricos. A detecção desse eco depende da intensidade e da distância entre o objeto e o sensor 
+- FUNÇÃO: Detectar paredes de modo que evite elas e siga o labirinto de maneira correta.
+
+- ITEM: Sensor de Umidade e Temperatura DHT11
+- QUANTIDADE: 1
+- DESCRIÇÃO: É um sensor que permite medir temperaturas de 0 a 50 graus Celsius, e umidade na faixa de 20% a 90%. Sua faixa de precisão para temperatura é de 2 graus Celsius, e de umidade, 5%.
+- FUNÇÃO: Medição de temperatura e umidade ambientes, a fim de identificar a fonte de calor.
+
+- ITEM: Sensor de Obstáculos Reflexivo Infravermelho
+- QUANTIDADE: 2 
+- DESCRIÇÃO: O Sensor de Obstáculo Infravermelho IR, é um sensor capaz de detectar a presença de objetos através de um receptor e um emissor IR, enviando e recebendo     luzes infravermelhas e trabalhando em conjunto com o C.I comparador LM393. 
+- FUNÇÃO: Identificar as paredes laterais do labirinto.
+
+- ITEM: Sensor de Temperatura NTC 10K
+- QUANTIDADE: 1
+- DESCRIÇÃO: O Sensor de Temperatura Ntc 10k é um resistor sensível à temperatura, onde a relação resistência x temperatura é conhecida, o Sensor de Temperatura Ntc 
+  10k é do tipo NTC(Negative Temperature Coefficient) porque seu coeficiente de variação de resistência com a temperatura é negativa, ou seja, a resistência  aumenta   com a temperatura.
+- FUNÇÃO: Medição da temperatura ambiente, a fim de identificar a fonte de calor.
+
+- ITEM: Cabo Jumper
+- QUANTIDADE: 20
+- DESCRIÇÃO: Fios condutores (geralmente coloridos) utilizados para conectar dois pontos de um circuito eletrônico. 
+- FUNÇÃO: Conexão dos componentes eletrônicos com o Arduino.
+
+- ITEM: Baterias LiPo
+- QUANTIDADE: 2
+- DESCRIÇÃO: recarregaveis e de tensão de 7,4v 
+- FUNÇÃO: Fornecimento de energia para os sistemas do robô.
+
+- ITEM: Chassi para Montagem de Carro Robô
+- QUANTIDADE: 2
+- DESCRIÇÃO: Chassi para a sustentação do arduino e todos os componentes relacionados
+- FUNÇÃO: Suporte para os demais componentes do projeto.
+
+
+
+Correção/ sugestão/ Duvidas:
+
+- Os sensores ultrassonicos e Sensor de Obstáculos Reflexivo Infravermelho tem a mesma função, cada um vai ser usado em um carrinho? (Vamostestar qual vai ser melhor)
+- O mesmo se aplica aos sensores de temperatura?
+(esse eu tambem não entendi pq tem dois - Gabrie lMaurina)
+- Deve ser usado baterias LiPo, pois elas recarregaveis e temos algumas, a tensão delas é de 7,4v (ajustado sugestão)
+- Sugiro usar o arduino nano, por devido a seu tamanho reduzido cabe melher no projeto, e conecta direto no protoboard entao é melhor.(ajustado sugestão)
